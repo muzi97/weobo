@@ -1,0 +1,140 @@
+.header{
+  width:100%;
+  background: #FCFCFC;
+  border-top: 3px solid #ff7f00;
+  border-bottom: 1px solid #ededed;
+  .header-box{
+    width: 1200px;
+    margin: 0 auto;
+    ul{
+      //width:50%;
+      float:left;
+      li{
+        font-size:14px;
+        padding:12px 24px;
+        float:left;
+        a{
+          display: block;
+          color: #696969;
+        }
+      }
+      li:hover a{
+        color: #ff7f00;
+      }
+    }
+    ul:first-child{
+      li:nth-of-type(2){
+        position: relative;
+        #aUl-top1{
+          display: none;
+          width: 114px;
+          background: white;
+          position: absolute;
+          top: 44px;left: 0;z-index: 2;
+          li{
+            width: 114px;
+            padding: 0;text-align: center;
+            line-height: 30px;
+            border: 0.5px solid #e4e4e4;
+            a{
+              display: block;
+            }
+            //float: left;
+          }
+          li:hover a{
+            color: black;
+          }
+        }
+      }
+    }
+    ul:last-child{
+      float: right;
+    }
+  }
+}
+.btn-box{
+  width: 1200px;
+  margin: 0 auto;
+  padding:24px 0;
+  input[type=button]{
+    margin: 0 12px;
+  }
+  .aBtn{
+    width: 100%;
+    .aBtn-box{
+      width: 24%;
+      float: left;
+      border-right: 1px solid #ff7f00;
+      input[type=checkbox]{
+        margin:12px 24px;
+      }
+    }
+    .aBtn-box:last-child{
+      border-right: 0;
+    }
+  }
+}
+.content{
+  width: 1200px;
+  margin: 0 auto;
+  .content-box{
+    width: 380px;
+    margin-right: 18px;
+    float: left;
+    .con-top{
+      width: 100%;
+      background: #f5f5f5;
+      border: 1px solid #ededed;
+      p{
+        float: left;
+        font-size: 16px;
+        padding:8px 10px;
+      }
+      div{
+        float: right;
+        font-size: 12px;
+        line-height: 32px;
+        padding-right: 10px;
+      }
+    }
+    .main{
+      padding-top: 20px;
+      width: 100%;
+      .main-aDiv{
+        width: 100%;
+        .li-left{
+          width: 30%;
+          float: left;
+          img{
+            width: 100%;
+          }
+        }
+        .li-righ{
+          width: 60%;
+          float: right;
+          ul{
+            width: 100%;
+            li{
+              padding: 6px 0;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .aUl1{
+        width: 100%;
+        display: none;
+          li{
+            width: 100%;
+            padding: 6px 0;
+            font-size: 14px;
+          }
+      }
+    }
+  }
+}
+.active{
+  background: white;
+  border-top: 2px solid #ff7f00;
+  border-right:1px solid #ededed;
+}
